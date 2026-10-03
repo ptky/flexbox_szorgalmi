@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    flex: 0 0 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+
+.cikk {
+    flex: 1 0 200px;
+}
+
+.cikk p {
+    height: calc(100%-img);
+}
+
+.cikk:nth-child(3) {
+    order: -1;
+}
+

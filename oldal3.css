@@ -1,0 +1,72 @@
+
+header {
+    flex: 0 0 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+}
+
+nav {
+    
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+
+.cikk {
+    flex: 1 1 50px;
+}
+
+.cikk p {
+    height: calc(100%-img);
+}
+
+#kozepe {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 20px;
+    
+}
+
+#kozepe aside {
+    flex: 0 1 200px;
+    order:-1;
+}
+
+#kozepe article {
+    flex: 0 1 420px;
+    order: -1;
+    
+}
+
+
+#kozepe nav {
+    flex: 0 0 200px;
+}
+
+
